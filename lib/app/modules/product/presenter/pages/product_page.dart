@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:flutter_masked_text2/flutter_masked_text2.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:mobi_gr/app/modules/product/domain/entities/products.dart';
@@ -7,6 +6,7 @@ import 'package:mobi_gr/app/modules/product/external/datasources/products_api.da
 import 'package:mobi_gr/app/modules/product/presenter/widgets/product_field.dart';
 import 'package:mobi_gr/app/modules/product/presenter/widgets/product_list_text_item.dart';
 import 'package:mobi_gr/utils/widgets/custom_dialog.dart';
+import 'package:simple_barcode_scanner/simple_barcode_scanner.dart';
 
 class ProductPage extends StatefulWidget {
   const ProductPage({super.key});
@@ -42,17 +42,21 @@ class _ProductPageState extends State<ProductPage> {
   }
 
   Future<String> readCode() async {
-    barCode = await FlutterBarcodeScanner.scanBarcode(
-      '#ff666',
-      'Cancelar',
-      true,
-      ScanMode.BARCODE,
+    barCode = await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const SimpleBarcodeScannerPage(),
+      ),
     );
 
     if (barCode == '-1') {
-      return value = '';
+      return '';
     } else {
-      return value = barCode;
+      setState(() {
+        value = barCode;
+      });
+
+      return value;
     }
   }
 
