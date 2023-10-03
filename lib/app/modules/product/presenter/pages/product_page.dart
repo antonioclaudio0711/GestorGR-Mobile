@@ -233,7 +233,20 @@ class _ProductPageState extends State<ProductPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                ProductsApi.updateProducts(
+                  productId: product.productId.toString(),
+                  sellingValue: product.sellingValue.toString(),
+                  print: 'S',
+                );
+                Modular.to.pop();
+
+                setState(() => loading = true);
+
+                Future.delayed(const Duration(seconds: 2)).then(
+                  (value) => onRefresh(value: searchValue.text),
+                );
+              },
               child: const Text('Imprimir'),
             ),
             TextButton(
@@ -246,9 +259,11 @@ class _ProductPageState extends State<ProductPage> {
                   );
                   Modular.to.pop();
 
+                  setState(() => loading = true);
+
                   Future.delayed(const Duration(seconds: 2)).then(
                     (value) => {
-                      onRefresh(value: product.reference!),
+                      onRefresh(value: searchValue.text),
                     },
                   );
                 } else {
@@ -265,7 +280,31 @@ class _ProductPageState extends State<ProductPage> {
               child: const Text('Salvar e imprimir'),
             ),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                if (validatePattern(text: customController.text)) {
+                  ProductsApi.updateProducts(
+                    productId: product.productId.toString(),
+                    sellingValue: customController.text,
+                    print: 'N',
+                  );
+                  Modular.to.pop();
+
+                  setState(() => loading = true);
+
+                  Future.delayed(const Duration(seconds: 2)).then(
+                    (value) => onRefresh(value: searchValue.text),
+                  );
+                } else {
+                  showDialog(
+                    context: context,
+                    builder: (context) {
+                      return const CustomDialog(
+                        message: 'O valor não pode ser zerado!',
+                      );
+                    },
+                  );
+                }
+              },
               child: const Text('Salvar'),
             ),
           ],
