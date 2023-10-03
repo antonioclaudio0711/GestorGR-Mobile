@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:mobi_gr/app/modules/product/domain/entities/products.dart';
-import 'package:mobi_gr/utils/preferences.dart';
+import 'package:gestorgr_mobile/app/modules/product/domain/entities/products.dart';
+import 'package:gestorgr_mobile/utils/preferences.dart';
 import 'package:http/http.dart' as http;
 
 class ProductsApi {

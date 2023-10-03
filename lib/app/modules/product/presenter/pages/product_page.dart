@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_masked_text2/flutter_masked_text2.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:mobi_gr/app/modules/product/domain/entities/products.dart';
-import 'package:mobi_gr/app/modules/product/external/datasources/products_api.dart';
-import 'package:mobi_gr/app/modules/product/presenter/widgets/product_field.dart';
-import 'package:mobi_gr/app/modules/product/presenter/widgets/product_list_text_item.dart';
-import 'package:mobi_gr/utils/widgets/custom_dialog.dart';
+import 'package:gestorgr_mobile/app/modules/product/domain/entities/products.dart';
+import 'package:gestorgr_mobile/app/modules/product/external/datasources/products_api.dart';
+import 'package:gestorgr_mobile/app/modules/product/presenter/widgets/product_field.dart';
+import 'package:gestorgr_mobile/app/modules/product/presenter/widgets/product_list_text_item.dart';
+import 'package:gestorgr_mobile/utils/widgets/custom_dialog.dart';
 import 'package:simple_barcode_scanner/simple_barcode_scanner.dart';
 
 class ProductPage extends StatefulWidget {

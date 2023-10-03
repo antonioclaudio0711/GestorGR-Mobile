@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:mobi_gr/app/modules/login/domain/entities/api_response.dart';
-import 'package:mobi_gr/app/modules/login/domain/entities/user.dart';
+import 'package:gestorgr_mobile/app/modules/login/domain/entities/api_response.dart';
+import 'package:gestorgr_mobile/app/modules/login/domain/entities/user.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mobi_gr/utils/preferences.dart';
-import 'package:mobi_gr/app/modules/login/presenter/widgets/login_field.dart';
-import 'package:mobi_gr/app/modules/login/presenter/widgets/models/login_field_model.dart';
+import 'package:gestorgr_mobile/utils/preferences.dart';
+import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/login_field.dart';
+import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/models/login_field_model.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

@@ -1,10 +1,10 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:mobi_gr/app/modules/login/login_module.dart';
-import 'package:mobi_gr/app/modules/principal/principal_module.dart';
-import 'package:mobi_gr/app/modules/product/product_module.dart';
-import 'package:mobi_gr/app/modules/settings/settings_module.dart';
-import 'package:mobi_gr/app/modules/splash/splash_module.dart';
-import 'package:mobi_gr/utils/app_routes.dart';
+import 'package:gestorgr_mobile/app/modules/login/login_module.dart';
+import 'package:gestorgr_mobile/app/modules/principal/principal_module.dart';
+import 'package:gestorgr_mobile/app/modules/product/product_module.dart';
+import 'package:gestorgr_mobile/app/modules/settings/settings_module.dart';
+import 'package:gestorgr_mobile/app/modules/splash/splash_module.dart';
+import 'package:gestorgr_mobile/utils/app_routes.dart';
 
 class AppModule extends Module {
   @override

@@ -2,16 +2,16 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:mobi_gr/app/modules/login/domain/entities/api_response.dart';
-import 'package:mobi_gr/app/modules/login/external/datasources/login_api.dart';
-import 'package:mobi_gr/app/modules/login/presenter/widgets/login_bottom_navigation.dart';
-import 'package:mobi_gr/app/modules/login/presenter/widgets/login_button.dart';
-import 'package:mobi_gr/app/modules/login/presenter/widgets/login_field.dart';
-import 'package:mobi_gr/app/modules/login/presenter/widgets/models/login_field_model.dart';
-import 'package:mobi_gr/utils/widgets/custom_dialog.dart';
-import 'package:mobi_gr/utils/app_routes.dart';
-import 'package:mobi_gr/utils/asset_paths.dart';
-import 'package:mobi_gr/utils/preferences.dart';
+import 'package:gestorgr_mobile/app/modules/login/domain/entities/api_response.dart';
+import 'package:gestorgr_mobile/app/modules/login/external/datasources/login_api.dart';
+import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/login_bottom_navigation.dart';
+import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/login_button.dart';
+import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/login_field.dart';
+import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/models/login_field_model.dart';
+import 'package:gestorgr_mobile/utils/widgets/custom_dialog.dart';
+import 'package:gestorgr_mobile/utils/app_routes.dart';
+import 'package:gestorgr_mobile/utils/asset_paths.dart';
+import 'package:gestorgr_mobile/utils/preferences.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

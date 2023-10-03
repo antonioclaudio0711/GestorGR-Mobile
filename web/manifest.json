@@ -1,6 +1,6 @@
 {
-    "name": "mobi_gr",
-    "short_name": "mobi_gr",
+    "name": "gestorgr_mobile",
+    "short_name": "gestorgr_mobile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

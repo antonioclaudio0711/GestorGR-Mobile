@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:mobi_gr/app/app_module.dart';
-import 'package:mobi_gr/app/app_widget.dart';
+import 'package:gestorgr_mobile/app/app_module.dart';
+import 'package:gestorgr_mobile/app/app_widget.dart';
 
 void main() {
   runApp(

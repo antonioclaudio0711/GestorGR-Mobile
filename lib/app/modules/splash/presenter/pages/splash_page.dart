@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:mobi_gr/utils/app_routes.dart';
+import 'package:gestorgr_mobile/utils/app_routes.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

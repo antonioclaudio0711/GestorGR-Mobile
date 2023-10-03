@@ -1,4 +1,4 @@
-package com.example.mobi_gr
+package com.grtecnologia.gestorgr_mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

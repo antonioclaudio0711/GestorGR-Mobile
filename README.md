@@ -1,6 +1,6 @@
-# mobi_gr
+# gestorgr_mobile
 
-A new Flutter project.
+GestorGR Mobile
 
 ## Getting Started
 

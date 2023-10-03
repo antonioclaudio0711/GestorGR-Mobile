@@ -1,6 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grtecnologia.gestorgr_mobile">
     <application
-        android:label="mobi_gr"
+        android:label="GestorGR Mobile"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
