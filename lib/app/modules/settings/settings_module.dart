@@ -1,6 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:gestorgr_mobile/app/modules/settings/presenter/pages/settings_page.dart';
-import 'package:gestorgr_mobile/utils/app_routes.dart';
+import 'package:mobi_gr/app/modules/settings/presenter/pages/settings_page.dart';
+import 'package:mobi_gr/utils/app_routes.dart';
 
 class SettingsModule extends Module {
   @override

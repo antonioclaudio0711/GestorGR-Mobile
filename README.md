@@ -1,4 +1,4 @@
-# gestorgr_mobile
+# mobi_gr
 
 GestorGR Mobile
 

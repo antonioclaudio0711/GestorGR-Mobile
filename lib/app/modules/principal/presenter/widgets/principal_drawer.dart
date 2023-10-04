@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:gestorgr_mobile/utils/app_routes.dart';
+import 'package:mobi_gr/utils/app_routes.dart';
 
 class PrincipalDrawer extends StatelessWidget {
   const PrincipalDrawer({

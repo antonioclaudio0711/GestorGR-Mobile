@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "gestorgr_mobile" "\0"
+            VALUE "FileDescription", "mobi_gr" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "gestorgr_mobile" "\0"
+            VALUE "InternalName", "mobi_gr" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "gestorgr_mobile.exe" "\0"
-            VALUE "ProductName", "gestorgr_mobile" "\0"
+            VALUE "OriginalFilename", "mobi_gr.exe" "\0"
+            VALUE "ProductName", "mobi_gr" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

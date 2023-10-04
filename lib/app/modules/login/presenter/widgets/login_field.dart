@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gestorgr_mobile/app/modules/login/presenter/widgets/models/login_field_model.dart';
+import 'package:mobi_gr/app/modules/login/presenter/widgets/models/login_field_model.dart';
 
 class LoginField extends StatelessWidget {
   const LoginField({

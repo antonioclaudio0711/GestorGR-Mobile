@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gestorgr_mobile/app/modules/principal/presenter/widgets/principal_app_bar.dart';
-import 'package:gestorgr_mobile/app/modules/principal/presenter/widgets/principal_drawer.dart';
-import 'package:gestorgr_mobile/utils/preferences.dart';
+import 'package:mobi_gr/app/modules/principal/presenter/widgets/principal_app_bar.dart';
+import 'package:mobi_gr/app/modules/principal/presenter/widgets/principal_drawer.dart';
+import 'package:mobi_gr/utils/preferences.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class PrincipalPage extends StatefulWidget {
